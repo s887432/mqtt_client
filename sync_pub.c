@@ -5,8 +5,8 @@
 
 #define ADDRESS     "tcp://localhost:1883"
 #define CLIENTID    "ExampleClientPub"
-#define TOPIC       "MQTT Examples"
-#define PAYLOAD     "Hello World!"
+#define TOPIC       "home/room1/light"
+#define PAYLOAD     "Hello World!(sync)"
 #define QOS         1
 #define TIMEOUT     10000L
 
